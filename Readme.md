@@ -21,7 +21,7 @@ filter(f); //Filters an array based on the passed function.
 //For example, [1, 2, -2, 3, -4, 4, 5].filter(function(n){ return n>0; }); will return the array with all positive numbers.
 
 forEach(f); //Run f passing as arguments the value, the index and the array itself
-}}}
+```
 
 
 ==Dates==
@@ -68,7 +68,7 @@ Format options:
   Y - A full numeric representation of a year, 4 digits
   z - The day of the year, zero indexed from 0 through 366
   Z - Timezone offset in seconds
-}}}
+```
 
 
 ==Numbers==
@@ -87,7 +87,7 @@ format(delim, decim, prefix, suffix); //Format a number.
 max(n, m); //Return the highest number.
 
 min(n, m); //Return the lowest number.
-}}}
+```
 
 
 ==Strings==
@@ -132,7 +132,7 @@ isAlphaNumeric(); //Check if string contains only alphanumeric characters.
 isNumeric(); //Check if string contains only numeric characters.
 
 isValidEmail(); //Check if string is valid email.
-}}}
+```
 
 
 ==Functions queue==
@@ -163,7 +163,7 @@ FQueue.runAfter( f, t, cb ); //Runs a function after t time and calls callback c
 //f can be a declared function passed to FQueue.anonF(), a queued function obtained with FQueue.getNext() or an anonymous function.
 //t must be a time value in milliseconds
 //cb is not mandatory and can be a declared function passed to FQueue.anonF(), a queued function obtained with FQueue.getNext() or an anonymous function.
-}}}
+```
 
 Why FQueue is usefull?
 Well, let's see two examples, and compare the expected and the actual outputs of each one of them.
@@ -203,6 +203,6 @@ function b(){
     flist[j]();
   }
 }
-}}}
+```
 
 
