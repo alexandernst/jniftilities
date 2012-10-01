@@ -1,9 +1,9 @@
-== Welcome ==
+# Welcome
 
 JniftilitieS is made for people who have to deal with JavaScript and a wide range of browsers, some of them really old and thus
 not supporting some nifty JavaScript methods.
 
-==Array==
+## Array
 
 The following methods are present in the Arrays script:
 
@@ -24,7 +24,7 @@ forEach(f); //Run f passing as arguments the value, the index and the array itse
 ```
 
 
-==Dates==
+## Dates
 
 The following methods are present in the Dates script:
 
@@ -73,7 +73,7 @@ Format options:
 ```
 
 
-==Numbers==
+## Numbers
 
 The following methods are present in the Numbers script:
 
@@ -92,7 +92,7 @@ min(n, m); //Return the lowest number.
 ```
 
 
-==Strings==
+## Strings
 
 The following methods are present in the Strings script:
 
@@ -137,7 +137,7 @@ isValidEmail(); //Check if string is valid email.
 ```
 
 
-==Functions queue==
+## Functions queue
 
 The following methods are present in the FQueue script:
 
@@ -206,5 +206,3 @@ function b(){
   }
 }
 ```
-
-
