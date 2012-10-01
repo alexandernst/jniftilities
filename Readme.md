@@ -28,7 +28,8 @@ forEach(f); //Run f passing as arguments the value, the index and the array itse
 
 The following methods are present in the Dates script:
 
-{{{
+```javascript
+/*
 Format a date object. If date object is empty, it will be filled with current time.
 Example:
 var date = new Date();
@@ -68,6 +69,7 @@ Format options:
   Y - A full numeric representation of a year, 4 digits
   z - The day of the year, zero indexed from 0 through 366
   Z - Timezone offset in seconds
+*/
 ```
 
 
