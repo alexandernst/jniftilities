@@ -7,8 +7,7 @@ not supporting some nifty JavaScript methods.
 
 The following methods are present in the Arrays script:
 
-{{{
-#!javascript
+```javascript
 indexOf(obj); //Returns the index of obj or -1 if there is none.
 
 nsort(); //Sorts numeric arrays.
@@ -76,8 +75,7 @@ Format options:
 
 The following methods are present in the Numbers script:
 
-{{{
-#!javascript
+```javascript
 truncate(n); //Truncate float to n decimal points.
 
 format(delim, decim, prefix, suffix); //Format a number.
@@ -96,8 +94,7 @@ min(n, m); //Return the lowest number.
 
 The following methods are present in the Strings script:
 
-{{{
-#!javascript
+```javascript
 trim(); //Remove all white spaces, \t, \n and \r from both the beggining and the end of the string.
 
 removeFirst(); //Remove the very first character from the string using.
@@ -142,8 +139,7 @@ isValidEmail(); //Check if string is valid email.
 
 The following methods are present in the FQueue script:
 
-{{{
-#!javascript
+```javascript
 FQueue.add( f ); //Adds a function to queue.
 //f can be a declared function passed to FQueue.anonF() or an anonymous function.
 //Examples:
@@ -181,8 +177,7 @@ Method b() does exactly the same as method a(), with the only difference that me
 function inside a FQueue.anonF(), and passes the i argument to that funcion.
 The expected output after running b() is the desired one.
 
-{{{
-#!javascript
+```javascript
 function a(){
   var flist = [];
   for(var i = 1; i < 6; i++){
